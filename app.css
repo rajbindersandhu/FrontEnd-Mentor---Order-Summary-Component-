@@ -1,0 +1,97 @@
+
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    position :relative;
+}
+
+
+.order-card{
+  width : 400px;
+    position: absolute;
+    top:300px;
+    left:0;
+    right:0;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 2%; 
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 0 0 20px 20px ;
+  position :relative;
+}
+
+.img-box{
+    width:100%;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom:100%;
+    left:0;
+    
+}
+.text{
+  text-align: center;
+}
+.change-box{
+  padding:4% 3% 3% 3%;
+  background-color: rgb(240,240, 240);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+}
+.nest-box{
+    display:flex; 
+    align-items: center;
+    
+}
+.annual{
+    padding-left:10px;
+    line-height: 20%;
+}
+.btn-box{
+    display:grid;
+    margin: 20px 0 20px 0;
+}
+.pay-btn{
+    background-color: rgb(50,0,255);
+    color:white;
+    font-weight: 800;
+    margin-bottom:20px;
+    padding:3%;
+    border-radius: 10px;
+    box-shadow: 2px 8px 10px 1px rgb(140,166,255);
+    cursor: pointer;
+}
+
+.pay-btn:active{
+    transform: scale(0.9);
+    box-shadow: 4px 10px 15px 3px rgb(140,166,255);
+}
+
+.cancel-btn{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 800;
+    padding:3%;
+    border :none;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+    
+}
+
+.cancel-btn:hover{
+    color:black
+}
+
+.cancel-btn:active{
+    color:black;
+    box-shadow: 0px 5px 10px  lightgray inset;
+    transform: scale(0.9);
+}
+
+.attribution { font-size: 11px; text-align: end; }
